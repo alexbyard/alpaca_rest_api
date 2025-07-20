@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
         print(f"Saved {symbol} data to data/symbols/{symbol}_{startDate}_{endDate}_{freq}.pkl")
 
-    if len(sys.argv) == 7:
+    if len(sys.argv) == 9:
         if sys.argv[6] == 'stack':
             stack_df = stack_data(df_dict)
             print('='*74)
